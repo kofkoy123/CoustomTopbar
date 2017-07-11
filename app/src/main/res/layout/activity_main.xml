@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Topbar="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lzr.coustomtoolbar.MainActivity">
+
+    <com.lzr.coustomtoolbar.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        Topbar:leftText="返回"
+        Topbar:leftTextColor="#000000"
+        Topbar:leftBackground="#00ff00"
+        Topbar:rightText="更多"
+        Topbar:rightTextColor="#ffffff"
+        Topbar:rightBackground="#0000ff"
+        Topbar:title="标题"
+        Topbar:titleTextColor="#ffffff"
+        Topbar:titleTextsize="8sp"
+        >
+
+    </com.lzr.coustomtoolbar.Topbar>
+
+</RelativeLayout>
